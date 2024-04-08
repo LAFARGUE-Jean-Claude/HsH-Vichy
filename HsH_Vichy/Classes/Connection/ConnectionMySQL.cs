@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HsH_Vichy.Classes.Connexion.Driver;
+using HsH_Vichy.Classes.Connection.Driver;
 
-namespace HsH_Vichy.Classes.Connexion.ConnexionMySQL
+namespace HsH_Vichy.Classes.Connection.ConnexionMySQL
 {
-    public class ConnexionMySQL
+    public class ConnectionMySQL
     {
         // Valeur par défaut d'un driver
         public static Driver.Driver unDriver = new Driver.Driver("localhost", "avions", "root", "");
@@ -26,7 +26,7 @@ namespace HsH_Vichy.Classes.Connexion.ConnexionMySQL
         // Instantiation d'un objet MySqlConnection
         public static MySqlConnection Conn;
 
-        public static void Connexion()
+        public static void Connection()
         {
             // Création de la requête et ouverture de la connexion
             string req = "server='" + unDriver.getServeur() + "';initial catalog='" + unDriver.getBaseDeDonnees() + "';user id='" + unDriver.getUtilisateur() + "';password ='" + unDriver.getMotDePasse() + "'";

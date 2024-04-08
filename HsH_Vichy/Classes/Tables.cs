@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using HsH_Vichy.Classes.Connexion.ConnexionMySQL;
-using HsH_Vichy.Classes.Connexion.Driver;
+using HsH_Vichy.Classes.Connection.ConnexionMySQL;
+using HsH_Vichy.Classes.Connection.Driver;
 using MySql.Data.MySqlClient;
 
 namespace HsH_Vichy.Classes.Tables
@@ -16,9 +16,9 @@ namespace HsH_Vichy.Classes.Tables
         List<string> tables = new List<string>();
         public void RecupererTables()
         { 
-            ConnexionMySQL.Connexion();
-            string req = "SELECT TABLE_NAME AS tables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='"+ConnexionMySQL.unDriver.getBaseDeDonnees()+"'";
-            MySqlCommand cmd = new MySqlCommand(req, ConnexionMySQL.Conn);
+            ConnectionMySQL.Connection();
+            string req = "SELECT TABLE_NAME AS tables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='"+ConnectionMySQL.unDriver.getBaseDeDonnees()+"'";
+            MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             MySqlDataReader dr = cmd.ExecuteReader();
 
             if (dr.Depth <= 1 ) 
@@ -37,9 +37,9 @@ namespace HsH_Vichy.Classes.Tables
         {
             List<string> colonne = new List<string>();
 
-            ConnexionMySQL.Connexion();
+            ConnectionMySQL.Connection();
             string req = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '"+tables+"'";
-            MySqlCommand cmd = new MySqlCommand(req, ConnexionMySQL.Conn);
+            MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             MySqlDataReader dr = cmd.ExecuteReader();
 
             if (dr.Depth <= 1)

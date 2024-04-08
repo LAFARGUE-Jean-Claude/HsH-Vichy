@@ -93,14 +93,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Crud\Select.cs" />
     <Compile Include="Classes\Tables.cs" />
-    <Compile Include="Classes\Connexion\ConnexionMySQL.cs" />
-    <Compile Include="Classes\Connexion\Driver.cs" />
+    <Compile Include="Classes\Connection\ConnectionMySQL.cs" />
+    <Compile Include="Classes\Connection\Driver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

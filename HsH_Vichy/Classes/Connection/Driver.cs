@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HsH_Vichy.Classes.Connexion.Driver
+namespace HsH_Vichy.Classes.Connection.Driver
 {
     public class Driver
     {
