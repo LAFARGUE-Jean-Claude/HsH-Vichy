@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using HsH_Vichy.Classes.Connection.ConnexionMySQL;
-using HsH_Vichy.Classes.Connection.Driver;
+using HsH_Vichy.Classes.Connection.ConnectionMySQL;
 using MySql.Data.MySqlClient;
 
 namespace HsH_Vichy.Classes.Tables
 {
     public class Tables
     {
-        List<string> tables = new List<string>();
+        public List<string> tables = new List<string>();
+        public List<string> colonne = new List<string>();
         public void RecupererTables()
         { 
             ConnectionMySQL.Connection();
@@ -35,8 +35,6 @@ namespace HsH_Vichy.Classes.Tables
         }
         public void RecupererColonne(string tables)
         {
-            List<string> colonne = new List<string>();
-
             ConnectionMySQL.Connection();
             string req = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '"+tables+"'";
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);

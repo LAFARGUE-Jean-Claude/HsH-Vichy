@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HsH_Vichy.Classes.Connection.Driver;
 
-namespace HsH_Vichy.Classes.Connection.ConnexionMySQL
+namespace HsH_Vichy.Classes.Connection.ConnectionMySQL
 {
     public class ConnectionMySQL
     {
