@@ -12,13 +12,13 @@ using System.Security.Cryptography;
 
 namespace HsH_Vichy.Classes.Crud
 {
-    public class Select
+    internal class Select
     {
         Naviguation.Naviguation navig = new Naviguation.Naviguation();
         Dictionary<string, List<string>> contenuTables = new Dictionary<string, List<string>>();
         List<string> str = new List<string>();
        
-        public Select(string tableActive)
+        public Dictionary<string, List<string>> SelectDatabase(string tableActive)
         {
             for (int i = 0; i < navig.colonne.Count; i++)
                 contenuTables.Keys.Append(navig.colonne[i]);
@@ -48,6 +48,8 @@ namespace HsH_Vichy.Classes.Crud
                     contenuTables.Values.Append(str);
                 }
             }
+            return contenuTables;
         }
+
     }
 }
