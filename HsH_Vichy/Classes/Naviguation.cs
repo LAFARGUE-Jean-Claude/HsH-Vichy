@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 using HsH_Vichy.Classes.Connection;
 using MySql.Data.MySqlClient;
 
-namespace HsH_Vichy.Classes.Tables
+namespace HsH_Vichy.Classes.Naviguation
 {
-    public class Tables
+    public class Naviguation
     {
         public List<string> tables = new List<string>();
         public List<string> colonne = new List<string>();
