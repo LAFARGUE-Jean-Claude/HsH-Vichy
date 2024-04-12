@@ -13,13 +13,10 @@ namespace HsH_Vichy.Classes.Crud
 {
     public class Select
     {
-        public Select(string tableActive, string reqMid)
+        public Select(string tableActive)
         {
             ConnectionMySQL.Connection();
-            string reqDebut = "SELECT ";
-            
-            string reqFin = "FROM " + tableActive;
-            string req = reqDebut + reqMid + reqFin;
+            string req = "SELECT * FROM " + tableActive;
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             MySqlDataReader dr = cmd.ExecuteReader();
 

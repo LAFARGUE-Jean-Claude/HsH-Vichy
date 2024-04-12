@@ -36,19 +36,19 @@ namespace HsH_Vichy.Classes.Tables
         public void RecupererColonne(string tables)
         {
             ConnectionMySQL.Connection();
-            string req = "SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '"+tables+"'";
+            string req = "SELECT COLUMN_NAME AS colonnes FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '"+tables+"'";
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             MySqlDataReader dr = cmd.ExecuteReader();
 
             if (dr.Depth <= 1)
             {
-                colonne.Add(dr["tables"].ToString());
+                colonne.Add(dr["colonnes"].ToString());
             }
             else
             {
                 while (dr.Read())
                 {
-                    colonne.Add(dr["tables"].ToString());
+                    colonne.Add(dr["colonnes"].ToString());
                 }
             }
         }

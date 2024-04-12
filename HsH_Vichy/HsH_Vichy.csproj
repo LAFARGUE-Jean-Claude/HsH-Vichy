@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Crud\Select.cs" />
+    <Compile Include="Classes\Crud\Update.cs" />
     <Compile Include="Classes\Tables.cs" />
     <Compile Include="Classes\Connection\ConnectionMySQL.cs" />
     <Compile Include="Classes\Connection\Driver.cs" />
