@@ -1,11 +1,10 @@
-﻿using HsH_Vichy.Classes.Connection.ConnectionMySQL;
+﻿using HsH_Vichy.Classes.Connection;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Mysqlx.Expect.Open.Types;
 
 namespace HsH_Vichy.Classes.Crud
 {

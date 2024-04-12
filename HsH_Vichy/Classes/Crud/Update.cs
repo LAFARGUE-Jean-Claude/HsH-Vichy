@@ -1,4 +1,4 @@
-﻿using HsH_Vichy.Classes.Connection.ConnectionMySQL;
+﻿using HsH_Vichy.Classes.Connection;
 using HsH_Vichy.Classes.Tables;
 using MySql.Data.MySqlClient;
 using System;

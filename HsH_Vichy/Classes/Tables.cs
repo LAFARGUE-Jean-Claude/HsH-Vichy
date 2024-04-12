@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using HsH_Vichy.Classes.Connection.ConnectionMySQL;
+using HsH_Vichy.Classes.Connection;
 using MySql.Data.MySqlClient;
 
 namespace HsH_Vichy.Classes.Tables
@@ -14,7 +14,7 @@ namespace HsH_Vichy.Classes.Tables
     {
         public List<string> tables = new List<string>();
         public List<string> colonne = new List<string>();
-        public void RecupererTables()
+        public void AllTable()
         { 
             ConnectionMySQL.Connection();
             string req = "SELECT TABLE_NAME AS tables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='"+ConnectionMySQL.unDriver.getBaseDeDonnees()+"'";

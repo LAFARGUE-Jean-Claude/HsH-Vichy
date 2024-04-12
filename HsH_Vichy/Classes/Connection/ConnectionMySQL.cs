@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HsH_Vichy.Classes.Connection.Driver;
 
-namespace HsH_Vichy.Classes.Connection.ConnectionMySQL
+namespace HsH_Vichy.Classes.Connection
+
 {
     public class ConnectionMySQL
     {
         // Valeur par défaut d'un driver
-        public static Driver.Driver unDriver = new Driver.Driver("localhost", "avions", "root", "");
+        public static Driver unDriver = new Driver("localhost", "avions", "root", "");
 
         // Modification du driver
         public void Authentification(string serveur, string baseDeDonnees, string utilisateur, string motDePasse)
