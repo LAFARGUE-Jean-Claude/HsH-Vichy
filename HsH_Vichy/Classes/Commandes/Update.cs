@@ -15,7 +15,7 @@ namespace HsH_Vichy.Classes.Crud
         public void UpdateDatabase(string tableActive, string colonneSelectionne, string nouvelleValeur, string condition) 
         {
             ConnectionMySQL.Connection();
-            string req = "UPDATE "+tableActive+" SET "+colonneSelectionne+" = "+nouvelleValeur+" WHERE "+condition;
+            string req = $"UPDATE {tableActive} SET {colonneSelectionne} = {nouvelleValeur} WHERE {condition}";
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             cmd.ExecuteNonQuery();
         }

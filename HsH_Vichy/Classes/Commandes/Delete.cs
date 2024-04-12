@@ -13,7 +13,7 @@ namespace HsH_Vichy.Classes.Crud
         public void DeleteDatabase(string tableActive, string condition) 
         {
             ConnectionMySQL.Connection();
-            string req = "DELETE FROM "+tableActive+" WHERE "+condition;
+            string req = $"DELETE FROM {tableActive} WHERE {condition}";
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             cmd.ExecuteNonQuery();
         }
