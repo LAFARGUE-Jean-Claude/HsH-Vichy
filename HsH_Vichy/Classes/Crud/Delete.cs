@@ -1,22 +1,20 @@
 ﻿using HsH_Vichy.Classes.Connection.ConnectionMySQL;
-using HsH_Vichy.Classes.Tables;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HsH_Vichy.Classes.Connection.ConnectionMySQL;
-using MySqlX.XDevAPI.Relational;
+using static Mysqlx.Expect.Open.Types;
 
 namespace HsH_Vichy.Classes.Crud
 {
-    internal class Update
+    internal class Delete
     {
-        public Update(string tableActive, string colonneSelectionne, string nouvelleValeur, string condition) 
+        public Delete(string tableActive, string condition) 
         {
             ConnectionMySQL.Connection();
-            string req = "UPDATE "+tableActive+" SET "+colonneSelectionne+" = "+nouvelleValeur+" WHERE "+condition;
+            string req = "DELETE FROM "+tableActive+" WHERE "+condition;
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             cmd.ExecuteNonQuery();
         }

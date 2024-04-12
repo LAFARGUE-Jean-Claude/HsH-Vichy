@@ -93,6 +93,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Crud\Delete.cs" />
     <Compile Include="Classes\Crud\Select.cs" />
     <Compile Include="Classes\Crud\Update.cs" />
     <Compile Include="Classes\Tables.cs" />
