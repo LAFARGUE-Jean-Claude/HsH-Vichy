@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HsH_Vichy.Classes.Commandes
 {
-    internal class Insert
+    public class Insert
     {
         Naviguation.Naviguation navig = new Naviguation.Naviguation();
         public void InsertDatabase(string tableActive, string commande)

@@ -19,6 +19,14 @@ namespace HsH_Vichy.Classes.Connection
         // Constructeur vide
         public Driver() { }
 
+        // Constructeur surchargé sans base de données
+        public Driver(string serveur, string utilisateur, string motDePasse)
+        {
+            this.serveur = serveur;
+            this.utilisateur = utilisateur;
+            this.motDePasse = motDePasse;
+        }
+
         // Constructeur surchargé
         public Driver(string serveur, string baseDeDonnees, string utilisateur, string motDePasse)
         {

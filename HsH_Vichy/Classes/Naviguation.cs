@@ -10,6 +10,7 @@ using MySql.Data.MySqlClient;
 
 namespace HsH_Vichy.Classes.Naviguation
 {
+
     public class Naviguation
     {
         public List<string> tables = new List<string>();

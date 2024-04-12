@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HsH_Vichy.Classes.Crud
 {
-    internal class Delete
+    public class Delete
     {
         public void DeleteDatabase(string tableActive, string condition) 
         {

@@ -10,7 +10,7 @@ using MySqlX.XDevAPI.Relational;
 
 namespace HsH_Vichy.Classes.Crud
 {
-    internal class Update
+    public class Update
     {
         public void UpdateDatabase(string tableActive, string colonneSelectionne, string nouvelleValeur, string condition) 
         {

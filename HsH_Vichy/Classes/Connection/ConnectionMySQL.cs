@@ -11,7 +11,7 @@ namespace HsH_Vichy.Classes.Connection
     public class ConnectionMySQL
     {
         // Valeur par défaut d'un driver
-        public static Driver unDriver = new Driver("localhost", "avions", "root", "");
+        public static Driver unDriver = new Driver("localhost", "HsH_Vichy", "root", "");
 
         // Modification du driver
         public void Authentification(string serveur, string baseDeDonnees, string utilisateur, string motDePasse)

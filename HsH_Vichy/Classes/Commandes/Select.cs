@@ -12,7 +12,7 @@ using System.Security.Cryptography;
 
 namespace HsH_Vichy.Classes.Crud
 {
-    internal class Select
+    public class Select
     {
         Naviguation.Naviguation navig = new Naviguation.Naviguation();
         Dictionary<string, List<string>> contenuTables = new Dictionary<string, List<string>>();
