@@ -26,12 +26,19 @@ namespace HsH_Vichy.Classes.Connection.ConnectionMySQL
         // Instantiation d'un objet MySqlConnection
         public static MySqlConnection Conn;
 
+        // Fonction ouvrant la connexion
         public static void Connection()
         {
             // Création de la requête et ouverture de la connexion
             string req = "server='" + unDriver.getServeur() + "';initial catalog='" + unDriver.getBaseDeDonnees() + "';user id='" + unDriver.getUtilisateur() + "';password ='" + unDriver.getMotDePasse() + "'";
             Conn = new MySqlConnection(req);
             Conn.Open();
+        }
+
+        // Fonction fermant la connexion
+        public static void Disconnect()
+        {
+            Conn.Close();
         }
     }
 }

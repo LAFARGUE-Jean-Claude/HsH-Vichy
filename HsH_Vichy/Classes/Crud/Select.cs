@@ -19,7 +19,6 @@ namespace HsH_Vichy.Classes.Crud
             string req = "SELECT * FROM " + tableActive;
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             MySqlDataReader dr = cmd.ExecuteReader();
-
         }
     }
 }
