@@ -1,0 +1,52 @@
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Console_HsH_Vichy.exe
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Console_HsH_Vichy.deps.json
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Console_HsH_Vichy.runtimeconfig.json
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Console_HsH_Vichy.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Console_HsH_Vichy.pdb
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\HsH_Vichy.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\MySql.Data.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Google.Protobuf.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\ZstdSharp.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\System.IO.Pipelines.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\HsH_Vichy.pdb
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\HsH_Vichy.dll.config
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\MySql.Data.xml
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Google.Protobuf.pdb
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\Google.Protobuf.xml
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.xml
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\BouncyCastle.Cryptography.xml
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\K4os.Compression.LZ4.xml
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\System.IO.Pipelines.xml
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\K4os.Hash.xxHash.xml
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.csproj.AssemblyReference.cache
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.GeneratedMSBuildEditorConfig.editorconfig
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.AssemblyInfoInputs.cache
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.AssemblyInfo.cs
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.csproj.CoreCompileInputs.cache
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.csproj.CopyComplete
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\refint\Console_HsH_Vichy.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.pdb
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.genruntimeconfig.cache
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\ref\Console_HsH_Vichy.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\System.Security.Permissions.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\System.Windows.Extensions.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\Console\Console_HsH_Vichy\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.csproj.AssemblyReference.cache
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.GeneratedMSBuildEditorConfig.editorconfig
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.AssemblyInfoInputs.cache
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.AssemblyInfo.cs
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.csproj.CoreCompileInputs.cache
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.sourcelink.json
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\refint\Console_HsH_Vichy.dll
+U:\Mes devoirs\BTS\DEV\Atelier de Profesionalisation\DLL Mysql\DLL Mysql\Console\Console_HsH_Vichy\obj\Debug\net8.0\Console_HsH_Vichy.pdb

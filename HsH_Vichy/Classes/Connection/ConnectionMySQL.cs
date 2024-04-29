@@ -11,7 +11,7 @@ namespace HsH_Vichy.Classes.Connection
     public class ConnectionMySQL
     {
         // Valeur par défaut d'un driver
-        public static Driver unDriver = new Driver("localhost", "HsH_Vichy", "root", "");
+        public static Driver unDriver = new Driver("localhost", "avions", "root", "");
 
         // Modification du driver
         public void Authentification(string serveur, string baseDeDonnees, string utilisateur, string motDePasse)
@@ -30,7 +30,7 @@ namespace HsH_Vichy.Classes.Connection
         public static void Connection()
         {
             // Création de la requête et ouverture de la connexion
-            string req = $"server={unDriver.getServeur()};initial catalog= {unDriver.getBaseDeDonnees()};user id= {unDriver.getUtilisateur()};password = {unDriver.getMotDePasse()}";
+            string req = "server='"+unDriver.getServeur()+"';initial catalog= '"+unDriver.getBaseDeDonnees()+"';user id= '"+unDriver.getUtilisateur()+"'";
             Conn = new MySqlConnection(req);
             Conn.Open();
         }

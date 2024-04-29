@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -22,17 +23,12 @@ namespace HsH_Vichy.Classes.Naviguation
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             MySqlDataReader dr = cmd.ExecuteReader();
 
-            if (dr.Depth <= 1 ) 
+            while (dr.Read())
             {
                 tables.Add(dr["tables"].ToString());
             }
-            else
-            {
-                while (dr.Read())
-                {
-                    tables.Add(dr["tables"].ToString());
-                }
-            }
+            
+            ConnectionMySQL.Disconnect();
         }
         public void RecupererColonne(string tables)
         {
@@ -41,17 +37,12 @@ namespace HsH_Vichy.Classes.Naviguation
             MySqlCommand cmd = new MySqlCommand(req, ConnectionMySQL.Conn);
             MySqlDataReader dr = cmd.ExecuteReader();
 
-            if (dr.Depth <= 1)
+            while (dr.Read())
             {
                 colonne.Add(dr["colonnes"].ToString());
             }
-            else
-            {
-                while (dr.Read())
-                {
-                    colonne.Add(dr["colonnes"].ToString());
-                }
-            }
+
+            ConnectionMySQL.Disconnect();
         }
     }
 }
